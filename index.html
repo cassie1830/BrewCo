@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brew &amp; Co.</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar-brew sticky-top">
+  <nav class="navbar navbar-expand-lg container py-3">
+    <a class="navbar-brand font-display fw-semibold" href="#" style="color:var(--off-white);">Brew <em style="font-style:italic; font-weight:300; color:var(--muted);">&amp;</em> Co.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" data-bs-theme="dark" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-lg-4 me-lg-4">
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#locations">Locations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#visit">About</a></li>
+      </ul>
+      <a href="#visit" class="btn btn-outline-cream mt-3 mt-lg-0" id="openStatus">We're Open</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero-section">
+  <div class="container">
+    <h1 class="hero-heading font-display">Coffee <em>First</em><br> Everything Else <em>Later</em></h1>
+    <p class="mt-4 mb-0" style="max-width:480px; font-size:17px; color:var(--off-white); opacity:.75;">Brew &amp; Co. is a neighborhood coffee bar for regulars — the kind of place where the barista knows your order by your second visit. Come sit with us.</p>
+    <div class="d-flex flex-nowrap gap-3 mt-4 flex-direction-row">
+      <a href="#menu" class="btn btn-cream" id="btn-CTA">See the menu</a>
+      <a href="#locations" class="btn btn-outline-line" id="btn-SCTA">Find a branch</a>
+    </div>
+    <div class="row hero-meta gx-4 text-center">
+      <div class="col-4"><span>Hours</span><strong class="font-display">1PM – 10PM</strong></div>
+      <div class="col-4"><span>Branches</span><strong class="font-display">QC &amp; beyond</strong></div>
+      <div class="col-4"><span>Roast</span><strong class="font-display">In-house blend</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="topDrinks-section reveal" id="topDrinks">
+  <div class="container">
+    <div class="eyebrow">People's Choice</div>
+    <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-3 mb-5">
+      <h2 class="font-display fw-medium" style="font-size:clamp(30px,4vw,46px);">Top Drinks This Week</h2>
+      <p class="mb-0" style="max-width:340px; font-size:14px; color:#6b6558;">Espresso for momentum, pour-over for patience. Milk drinks made with fresh full cream by default, oat on request.</p>
+    </div>
+    <div class="row g-0 border" style="border-color:var(--line-light) !important;">
+      <div class="col-md-6 topDrinks-card border-end" style="border-color:var(--line-light) !important;">
+        <h3>Espresso</h3>
+        <div class="topDrinks-item"><div><div class="name">Espresso</div><div class="desc">Double shot, our current house blend</div></div><div class="price">₱120</div></div>
+        <div class="topDrinks-item"><div><div class="name">Spanish Latte</div><div class="desc">Espresso, condensed milk, steamed milk</div></div><div class="price">₱150</div></div>
+        <div class="topDrinks-item"><div><div class="name">Brew &amp; Co. Signature</div><div class="desc">Double shot, brown sugar, oat milk</div></div><div class="price">₱165</div></div>
+        <div class="topDrinks-item"><div><div class="name">Iced Americano</div><div class="desc">Slow-poured over hand-cracked ice</div></div><div class="price">₱130</div></div>
+      </div>
+      <div class="col-md-6 topDrinks-card">
+        <h3>Pour-over</h3>
+        <div class="topDrinks-item"><div><div class="name">Benguet, Philippines</div><div class="desc">Washed · brown sugar, stone fruit</div></div><div class="price">₱195</div></div>
+        <div class="topDrinks-item"><div><div class="name">Yirgacheffe, Ethiopia</div><div class="desc">Natural · jasmine, blackberry</div></div><div class="price">₱215</div></div>
+        <div class="topDrinks-item"><div><div class="name">Huila, Colombia</div><div class="desc">Washed · caramel, red apple</div></div><div class="price">₱205</div></div>
+        <div class="topDrinks-item"><div><div class="name">Decaf, Peru</div><div class="desc">Sugarcane process · cocoa, walnut</div></div><div class="price">₱190</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="locations-section reveal" id="locations">
+  <div class="container">
+    <div class="eyebrow">Kahit saan ka pa</div>
+    <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-3 mb-5">
+      <h2 class="font-display fw-medium" style="font-size:clamp(30px,4vw,46px);"> Branches To You</h2>
+      <p class="mb-0 text-muted-custom" style="max-width:340px; font-size:14px;">Same menu, same brew, wherever you find us.</p>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4"><div class="loc-card"><div class="tag">FLAGSHIP</div><h4 class="font-display">Quezon City</h4><p>16C Sta. Catalina St., Brgy. Maharlika</p></div></div>
+      <div class="col-md-4"><div class="loc-card"><div class="tag">MOST VISITED</div><h4 class="font-display">Sampaloc, Manila</h4><p>Zone 46, District IV, GF 103- The One Torre de Santo Tomas 870 MF JHOCSON, COR España Blvd</p></div></div>
+      <div class="col-md-4"><div class="loc-card"><div class="tag">NEWEST</div><h4 class="font-display">Calamba, Laguna</h4><p>San Jose Rd</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="visit-section reveal" id="visit">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <div class="eyebrow">Visit</div>
+        <h2 class="font-display fw-medium mb-4" style="font-size:clamp(30px,4vw,48px); max-width:480px;">Pull up a seat at the flagship.</h2>
+        <div style="font-size:14px; color:var(--muted);">
+          <strong class="d-block mb-2" style="color:var(--off-white); font-weight:500;">Brew &amp; Co. Cafe — Quezon City</strong>
+          16C Sta. Catalina Street, Barangay Maharlika<br>
+          Quezon City, Metro Manila (near Banawe)
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <table class="table table-hours mb-0">
+          <tbody>
+            <tr><td>Monday – Sunday</td><td>1PM – 10PM</td></tr>
+            <tr><td>Kitchen closes</td><td>9:30PM</td></tr>
+            <tr><td>Walk-ins</td><td>Always welcome</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-wrap justify-content-between gap-2">
+    <span>© 2026 Brew &amp; Co.</span>
+    <span>Created By Brewha Developers</span>
+  </div>
+</footer>
+
+<script src = index.js></script>
+
+
+</body>
+</html>
