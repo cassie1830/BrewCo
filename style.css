@@ -13,11 +13,10 @@
     --bs-body-font-family:'Work Sans', sans-serif;
     --bs-body-bg:var(--black);
     --bs-body-color:var(--off-white);
+    --milk: #ffffff;
+    --coffee: #6F4E37;
+    --cup-border: #0d0c0a;
   }
-
-  body{
-     -webkit-font-smoothing:antialiased; 
-    }
   a{
      text-decoration:none; 
     }
@@ -70,6 +69,12 @@
 #btn-CTA, #btn-SCTA{
     border-radius: 5%;
 }
+@media (max-width: 576px){
+    #btn-CTA,
+    #btn-SCTA{
+        width: 100%;
+    }
+}
   /* ---------- HERO ---------- */
   .hero-section{ padding:1rem 1rem 4rem 1rem ; border-bottom:1px solid var(--line-dark); }
   .hero-heading{ font-size:clamp(42px, 6.4vw, 84px); line-height:1.02; letter-spacing:-0.01em; font-weight:500; }
@@ -109,3 +114,97 @@
   .table-hours td:last-child{ text-align:right; font-family:'JetBrains Mono', monospace; color:var(--muted); }
 
   footer.site-footer{ border-top:1px solid var(--line-dark); padding:1.75rem 0; font-size:12px; color:var(--muted); }
+
+/* Coffee CSS */
+.coffee-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.coffee-cup{
+    --coffee-percent: 50%; /* Default */
+    width: 6rem;
+    height: 6rem;
+    border: 0.3rem solid var(--cup-border);
+    border-radius: 0 0 2rem 2rem;
+    background: var(--milk);
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 1.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width:576px){
+    .coffee-cup{
+        margin:.5rem 0;
+    } }
+/* Coffee Fill */
+.coffee{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:var(--coffee-percent);
+    background:var(--coffee);
+    color:var(--off-white);
+}
+
+.milk{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - var(--coffee-percent));
+    color: var(--ink);
+}
+
+
+.macchiato{
+    --coffee-percent:85%;
+}
+
+.cappuccino{
+    --coffee-percent:25%;
+}
+
+.latte{
+    --coffee-percent:20%;
+}
+.coffee-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+.coffee-text{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+    margin-top: 0.2rem;
+    color: var(--ink);
+    font-weight:600;
+    text-align: center;
+}
+.coffee-description{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    margin-top: 0.2rem;
+    color: var(--muted);
+    text-align: center;
+}
+.coffee-price{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    color: var(--ink);
+    text-align: center;
+    transform: translateX(-0.3rem);
+    
+}

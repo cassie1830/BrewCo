@@ -14,8 +14,13 @@ window.onload = function() {
   const currentTime = new Date();
   const currentHour = currentTime.getHours();
   const currentDay = currentTime.getDay(); 
-  if (currentHour >= 13 && currentHour < 22) {
+  if (currentHour >= 13 && currentHour < 20) {
       openStatus.textContent = "Open now";
-  } else {
+  } else if(currentHour >= 20 && currentHour < 22) {
+      openStatus.textContent = "Closing Soon";
+  } else if(currentHour >= 11 && currentHour < 13) {
+      openStatus.textContent = "Opening Soon";
+  }
+    else {
       openStatus.textContent = "Closed now :(";
   }}
