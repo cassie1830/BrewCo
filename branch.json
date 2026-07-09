@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Brew & Co. Quezon City",
+    "branch": "Quezon City",
+    "city": "Quezon City",
+    "address": "16C Sta. Catalina St., Sta. Mesa Heights, Barangay Maharlika, Quezon City",
+    "phone": "09176280154",
+    "hours": 
+      "daily: 1:00 PM - 10:00 PM"
+    },
+  {
+    "id": 2,
+    "name": "Brew & Co. Calamba",
+    "branch": "Calamba",
+    "city": "Calamba",
+    "address": "6 San Jose Rd., Calamba, Laguna",
+    "phone": null,
+    "hours": 
+      "tuesday-sunday: 10:00 AM - 10:00 PM"
+
+  },
+  {
+    "id": 3,
+    "name": "Brew & Co. Valenzuela",
+    "branch": "Valenzuela",
+    "city": "Valenzuela",
+    "address": "2nd Floor, NLR Center, Unit 201, 5040 Gen. T. de Leon, Valenzuela City, Metro Manila",
+    "phone": "09614514964",
+    "hours": "daily: 1:00 PM - 10:00 PM"
+  },
+  {
+    "id": 4,
+    "name": "Brew & Co. Tondo",
+    "branch": "Tondo",
+    "city": "Manila",
+    "address": "Zone 1, 1360 Franco St. cor. Concha St., Tondo, Manila, Metro Manila",
+    "phone": null,
+    "hours": "daily: 1:00 PM - 10:00 PM"
+  },
+{
+  "id": 5,
+  "name": "Brew & Co. España",
+  "branch": "España",
+  "city": "Manila",
+  "address": "GF 103, The One Torre de Santo Tomas, 870 M.F. Jhocson St. cor. España Blvd., Sampaloc, Manila, Metro Manila",
+  "phone": "09981937177",
+    "hours": "daily: 1:00 PM - 10:00 PM"
+}
+]
