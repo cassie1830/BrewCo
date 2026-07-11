@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     async function loadBranches() {
 
-        const response = await fetch("branch.json");
+        const response = await fetch("../data/branch.json");
         branches = await response.json();
 
         branchList.innerHTML = "";
