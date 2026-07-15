@@ -162,24 +162,6 @@ BrewCo/
 
 ---
 
-## Running the Website
-
-No installation is necessary.
-
-Open **index.html** in any modern web browser, or run a local server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit:
-
-```
-http://localhost:8000
-```
-
----
-
 ## Version Control
 
 Git was used throughout the development process to organize changes, track progress, and support collaboration among team members.
