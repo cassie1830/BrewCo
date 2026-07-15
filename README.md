@@ -33,12 +33,12 @@ The project also demonstrates front-end web development concepts such as respons
 
 The website was developed using:
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Bootstrap 5
-- Bootstrap Icons
-- Google Fonts
+ HTML5
+ CSS3
+ JavaScript (ES6)
+ Bootstrap 5
+ Bootstrap Icons
+ Google Fonts
 
 ### Styling
 
@@ -60,29 +60,29 @@ JavaScript is used throughout the project to create a more dynamic browsing expe
 
 ### Main Website (`index.js`)
 
-- Displays the café's opening status based on the current time.
-- Adds reveal animations while scrolling.
-- Loads branch information from JSON.
-- Searches and filters branch locations.
-- Updates the embedded Google Map based on the selected branch.
+ Displays the café's opening status based on the current time.
+ Adds reveal animations while scrolling.
+ Loads branch information from JSON.
+ Searches and filters branch locations.
+ Updates the embedded Google Map based on the selected branch.
 
 ### Ordering System (`order.js`)
 
-- Loads menu items from `products.json`.
-- Displays products dynamically.
-- Searches drinks instantly.
-- Adds products to the shopping cart.
-- Updates item quantities.
-- Calculates the total order price.
-- Stores cart data using Session Storage.
-- Displays checkout confirmation and success dialogs.
+ Loads menu items from `products.json`.
+ Displays products dynamically.
+ Searches drinks instantly.
+ Adds products to the shopping cart.
+ Updates item quantities.
+ Calculates the total order price.
+ Stores cart data using Session Storage.
+ Displays checkout confirmation and success dialogs.
 
 ### Contact Page (`contact.js`)
 
-- Validates required fields.
-- Tracks the message character count.
-- Displays successful submission notifications.
-- Resets the form after submission.
+ Validates required fields.
+ Tracks the message character count.
+ Displays successful submission notifications.
+ Resets the form after submission.
 
 ---
 
@@ -94,36 +94,36 @@ The project separates its content from the webpage by using JSON.
 
 Contains:
 
-- Product categories
-- Drink names
-- Descriptions
-- Prices
-- Product images
+ Product categories
+ Drink names
+ Descriptions
+ Prices
+ Product images
 
 Current categories include:
 
-- Espresso
-- Matcha
-- Non-Coffee
-- Frappes
+ Espresso
+ Matcha
+ Non-Coffee
+ Frappes
 
 ### `branch.json`
 
 Contains:
 
-- Branch names
-- Cities
-- Addresses
-- Contact numbers
-- Operating hours
+ Branch names
+ Cities
+ Addresses
+ Contact numbers
+ Operating hours
 
 Current branch locations:
 
-- Quezon City
-- España
-- Valenzuela
-- Tondo
-- Calamba
+ Quezon City
+ España
+ Valenzuela
+ Tondo
+ Calamba
 
 ---
 
@@ -213,10 +213,6 @@ Deployment steps:
 5. Choose the **main** branch and **/(root)** folder.
 6. Save the configuration.
 
-Live Website:
-
-https://unjown.github.io/BrewCo/
-
 ---
 
 ## Development Team
@@ -225,10 +221,10 @@ https://unjown.github.io/BrewCo/
 
 | Role | Member |
 |------|--------|
-| Lead Developer | Windale Tan |
-| Lead UI Designer | Miguel Santos |
+| Lead Developer | Windale Lorenz Tan |
+| Lead UI Designer | Christian Miguel Santos |
 | Lead UX Designer | Cassandra Espino |
-| Lead Tester | Angelo Acosta |
+| Lead Tester | Angelo Russel Acosta |
 
 ---
 
@@ -236,14 +232,14 @@ https://unjown.github.io/BrewCo/
 
 Possible enhancements for future versions include:
 
-- User account registration
-- Online payment integration
-- Customer reviews and ratings
-- Loyalty rewards
-- Order history
-- Reservation system
-- Administrative dashboard
-- Database integration
+ User account registration
+ Online payment integration
+ Customer reviews and ratings
+ Loyalty rewards
+ Order history
+ Reservation system
+ Administrative dashboard
+ Database integration
 
 ---
 
